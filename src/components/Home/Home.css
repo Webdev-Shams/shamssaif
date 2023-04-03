@@ -1,0 +1,61 @@
+.hero,
+p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.devName {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.nameColor,
+.dev-des {
+    color: #F15A24;
+}
+
+.heroText {
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    border-left: 2px solid gainsboro;
+    padding-left: 25px;
+}
+
+.heroBtn {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.worksBtn {
+    background-color: #F15A24;
+    color: gainsboro;
+}
+
+.resumeBtn {
+    background-color: gainsboro;
+    font-weight: 400;
+    color: #F15A24;
+    margin-left: 20px;
+}
+
+.worksBtn:hover {
+    background-color: #c94a1c;
+}
+
+.resumeBtn:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+@media only screen and (max-width: 640px) {
+    .heroText {
+        top: 30%;
+        left: 20%;
+    }
+
+    .devName {
+        font-size: 40px;
+    }
+}

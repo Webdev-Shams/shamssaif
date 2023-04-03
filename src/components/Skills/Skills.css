@@ -1,0 +1,54 @@
+.skills {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    padding-bottom: 100px;
+}
+
+
+.sklHeading {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.sklTxt {
+    font-size: 30px;
+    font-weight: 300;
+    color: #F15A24;
+}
+
+.headStlIcn {
+    display: inline-block;
+    color: #F15A24;
+    font-size: 50px;
+}
+
+.sklTxtCont {
+    /* border-left: 1px solid #F15A24;
+    line-height: 0.8;
+    padding-left: 10px; */
+    margin-bottom: 15px;
+}
+
+.sklIcon {
+    font-size: 70px;
+    margin: 0 auto;
+    background-color: #f15b241f;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.sklIconTxt {
+    text-align: center;
+    background-color: rgba(48, 41, 41, 0.459);
+    padding: 30px 20px;
+    border-radius: 8px;
+
+}
+
+@media only screen and (max-width: 640px) {
+    .skills {
+        top: 20%;
+        left: 25%;
+    }
+}

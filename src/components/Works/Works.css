@@ -1,0 +1,83 @@
+.works {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: auto;
+    margin-right: 20%;
+}
+
+.prjct {
+    margin: 5px;
+}
+
+.rcntwork {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+.rcntLiveBtn {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 8px 20px;
+    background-color: rgb(1, 141, 94);
+
+}
+
+.rcntLiveBtn:hover {
+    background-color: rgb(1, 111, 74);
+
+}
+
+
+.prjctBtn {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 8px 20px;
+}
+
+.liveBtn {
+    background-color: #F15A24;
+}
+
+.liveBtn:hover {
+    background-color: #c94a1c;
+}
+
+.codeBtn {
+    background-color: gainsboro;
+    color: rgb(101, 101, 101);
+}
+
+.codeBtn:hover {
+    background-color: rgb(172, 172, 172);
+    color: rgb(255, 255, 255);
+}
+
+.workBoard {
+    background-color: rgba(48, 41, 41, 0.459);
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 640px) {
+    .works {
+        top: 10%;
+        left: 20%;
+        margin-right: 20px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .works {
+        top: 10%;
+        left: 20%;
+        margin-right: 50px;
+        width: auto;
+    }
+}

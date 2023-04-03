@@ -1,0 +1,35 @@
+.about {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    padding-left: 25px;
+}
+
+.aboutPara {
+    max-width: 70%;
+    text-align: justify;
+}
+
+.shamssaifPic {
+    max-width: 70%;
+}
+
+.shamssaifPic img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 640px) {
+    .about {
+        top: 20%;
+        left: 20%;
+    }
+
+    .aboutPara {
+        max-width: 90%;
+    }
+
+    .shamssaifPic {
+        margin: 0 auto;
+    }
+}

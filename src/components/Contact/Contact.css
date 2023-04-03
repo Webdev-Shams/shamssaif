@@ -1,0 +1,36 @@
+.contact {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+.contIcon {
+    font-size: 23px;
+    margin-right: 10px;
+}
+
+.cmplogo {
+    width: 30px;
+}
+
+.gitlogo {
+    background-color: gainsboro;
+    border-radius: 4px;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .contact {
+        top: 20%;
+        left: 8%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact {
+        top: 25%;
+        left: 25%;
+        margin-right: 20px;
+    }
+}

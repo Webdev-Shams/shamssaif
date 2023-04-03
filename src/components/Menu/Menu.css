@@ -1,0 +1,60 @@
+.navLogo {
+    height: 25%;
+}
+
+.navItems {
+    padding: 15px;
+    margin-top: 25%;
+    display: flex;
+    row-gap: 50px;
+    max-width: 70%;
+}
+
+.navItemsIcons {
+    width: 30%;
+    align-items: flex-end;
+}
+
+.navItemsNames {
+    display: none;
+    width: 70%;
+
+}
+
+.navBar {
+    background-color: #f943004e;
+    height: 100vh;
+    width: 150px;
+    transition-property: width;
+    transition-duration: .7s;
+}
+
+.navBar:hover {
+    width: 200px;
+    text-align: left;
+}
+
+.navBar:hover .navItemsNames {
+    display: block;
+}
+
+
+
+.iconNavbar {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 35px;
+}
+
+.itemNavbar {
+    font-size: 17px;
+    font-weight: 200;
+    margin-bottom: -7px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navBar {
+        display: none;
+    }
+}
